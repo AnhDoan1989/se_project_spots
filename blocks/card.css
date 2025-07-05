@@ -4,6 +4,7 @@
   object-fit: cover;
   display: block;
   margin-bottom: 12px;
+  border-radius: 8px;
 }
 
 .card__content {
@@ -22,6 +23,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  margin: 0;
 }
 
 .card__like-btn {

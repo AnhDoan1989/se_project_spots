@@ -7,8 +7,9 @@
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 .footer__message {
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
-  font-style: "regular";
+  font-style: "normal";
 }

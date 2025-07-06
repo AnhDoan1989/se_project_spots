@@ -28,7 +28,6 @@
   overflow: hidden;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  max-width: 288px;
 }
 
 .profile__description {
@@ -44,7 +43,6 @@
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  max-width: 288px;
 }
 
 .profile__edit-btn {
@@ -72,7 +70,7 @@
   align-self: flex-end;
   background-color: #212121;
   color: #fcf5e5;
-  padding: 18px 32px;
+  padding: 18px 15px;
   border-radius: 8px;
   border: none;
   align-items: center;
@@ -81,9 +79,10 @@
   width: 149px;
   height: 52px;
   transition: opacity 0.3s;
+  justify-content: center;
 }
 .profile__add-btn:hover {
-  opacity: 70%;
+  opacity: 80%;
 }
 
 @media screen and (max-width: 627px) {
@@ -104,10 +103,12 @@
   .profile__name {
     font-size: 20px;
     margin: 0 0 6px;
+    max-width: 288px;
   }
 
   .profile__description {
     margin: 0 0 32px;
+    max-width: 288px;
   }
 
   .profile__column {

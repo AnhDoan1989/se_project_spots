@@ -39,6 +39,12 @@
   background-color: transparent;
   padding: 0;
   background-image: url(../images/Close-Icon.svg);
+  cursor: pointer;
+  opacity: 40%;
+}
+
+.modal__close-btn:hover {
+  opacity: 100%;
 }
 
 .modal__title {
@@ -71,6 +77,11 @@
   border-radius: 8px;
   padding: 16px 12px;
   box-sizing: border-box;
+  opacity: 40%;
+}
+
+.modal__input:hover {
+  opacity: 100%;
 }
 
 .modal__input::placeholder {
@@ -93,10 +104,27 @@
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.modal__submit-btn {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 627px) {
   .modal__container {
     padding: 12px;
+  }
+  .modal__title {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .modal__close-btn {
+    top: 12px;
+    right: 12px;
+  }
+  .modal__submit-btn {
+    max-width: 100%;
   }
 }

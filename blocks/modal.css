@@ -77,11 +77,11 @@
   border-radius: 8px;
   padding: 16px 12px;
   box-sizing: border-box;
-  opacity: 40%;
+  border: 1px solid rgba(33, 33, 33, 0.4);
 }
 
 .modal__input:hover {
-  opacity: 100%;
+  border-color: rgba(33, 33, 33, 1);
 }
 
 .modal__input::placeholder {
@@ -108,7 +108,7 @@
   opacity: 100%;
 }
 
-.modal__submit-btn {
+.modal__submit-btn:hover {
   opacity: 80%;
 }
 
